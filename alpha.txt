@@ -16,3 +16,17 @@
   13        0.224 Get-Help -Name *DNS*
   14        3.176 Help about_command_Set-DnsClient
   
+  //Day 2 Work
+  
+  15     1:08.919 Help Resolve-DnsName
+  16       17.584 Get-Verb | more
+  17        0.013 Get-Verb  -Verb Un*
+  18        0.011 get-Verb  -Verb M*
+  19        0.037 get-Verb  -Group M*
+  20        0.012 get-Verb  -Group Security
+  21       18.817 Help about* | More
+  22       43.553 Help about_History
+  23        0.044 Get-History
+  24        2.167 Get-Command
+  25        6.193 Get-Command -Verb New | more
+  26        0.092 cls

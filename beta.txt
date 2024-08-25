@@ -1,0 +1,31 @@
+// Day 2.2 Work
+27        9.778 Get-Command -CommandType Function | more
+  28        0.017 get-alias -Definition *Command*
+  29        6.482 gcm -Verb New | more
+  30        0.786 gcm -name *IP*
+  31        0.077 gcm -name Get*IP*
+  32        0.038 gcm -name Get*IPaddress*
+  33       23.401 help get-NetIPAddress -examples
+  34       11.601 help get-NetIPAddress
+  35        5.140 help get-NetIPAddress -examples
+  36        3.052 Get-NetIPAddress |Format-Table
+  37        0.043 gcm -name *alias
+  38        0.058 help new-alias -example
+  // From command 30 to 38 you can create your own alias
+  
+  // Day 3 Work
+  
+  PS C:\Users\Rashed> Get-History
+
+  Id     Duration CommandLine
+  --     -------- -----------
+   1        0.015 get-History
+   2        1.594 get-service
+   3        0.118 gcm -name where*
+   4        4.735 help about_Where-Object
+   5        3.617 help here-Object
+   6        7.249 help Where-Object
+   7     1:48.083 help Where-Object -example
+   8        1.132 ls
+   9        0.106 cls
+   
