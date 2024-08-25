@@ -28,4 +28,3 @@
    7     1:48.083 help Where-Object -example
    8        1.132 ls
    9        0.106 cls
-   

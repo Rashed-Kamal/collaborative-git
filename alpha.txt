@@ -16,7 +16,7 @@
   13        0.224 Get-Help -Name *DNS*
   14        3.176 Help about_command_Set-DnsClient
   
-  //Day 2 Work
+  //Day 2.1 Work
   
   15     1:08.919 Help Resolve-DnsName
   16       17.584 Get-Verb | more
@@ -30,3 +30,19 @@
   24        2.167 Get-Command
   25        6.193 Get-Command -Verb New | more
   26        0.092 cls
+  
+  // Day 3 Work
+  
+  PS C:\Users\Rashed> Get-History
+
+  Id     Duration CommandLine
+  --     -------- -----------
+   1        0.015 get-History
+   2        1.594 get-service
+   3        0.118 gcm -name where*
+   4        4.735 help about_Where-Object
+   5        3.617 help here-Object
+   6        7.249 help Where-Object
+   7     1:48.083 help Where-Object -example
+   8        1.132 ls
+   9        0.106 cls
