@@ -28,3 +28,27 @@
    7     1:48.083 help Where-Object -example
    8        1.132 ls
    9        0.106 cls
+   
+   //Day 4 Work
+   
+   10        0.671 Get-service
+  11        0.042 get-member
+  12        0.069 get-members
+  13        0.324 Get-Service | Get-Member
+  14        0.312 Get-Service | Select-Object -Property Name,Ststus | gm
+  15       18.898 Get-Service | Where-Object -Property Status -eq "Stopped" | More
+  16        0.392 Get-Service | Where-Object -Property Status -eq "Stopped" | GM
+  17       30.149 get-service |…
+  18        0.358  (get-service | where-object status -eq "Stopped" | Select-object Name,Status).count
+  19       24.415 Get-variable | More
+  20        0.037 Get-variable -Name P*
+  21        0.021 Get-Variable -Name PS*
+  22        0.006 $PSVariable
+  23        0.034 $PSVersionTable
+  24       16.401 Get-ChildItem ENV: | More
+  25        0.006 $OS
+  26       28.465 Get-ChildItem ENV: | More
+  27        0.001 $ENV: OS
+  28        0.009 $ENV:OS
+  29        0.008 $ENV:NUMBER_OF_PROCESSORS
+  30        0.008 $ENV:COMPUTERNAME
